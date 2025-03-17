@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <p class="fs-xxxl fc-violet">Test</p>
+    <div class="mb-10 ml-10">test</div>
+
+    <div class="pc-container mt-5 b-9 bc-green">
+        Help
+    </div>
+
+    <button onclick="showModal()">Open Modal</button>
+
+    <div class="alert bg-green" id="myAlert">
+        This is an alert message!
+        <button class="close-btn" onclick="closeAlert()">✖</button>
+    </div>
+    <button onclick="showAlert()">Show Alert</button>
+
+
+    <div class="modal bc-yellow bg-lightblue" id="myModal">
+        <div class="modal-header">
+            Modal Demo
+        </div>
+        <div class="modal-body">
+            This is a modal test
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat officiis assumenda veritatis adipisci eius
+            recusandae cum illum aliquid vero sunt esse dicta quod magni expedita, voluptate et, incidunt saepe
+            laboriosam.
+        </div>
+        <div class="modal-footer">
+            <input type="button" value="Close" onclick="closeModal()">
+            <input type="button" value="whut">
+        </div>
+    </div>
+
+    <script>
+        function showModal() {
+            document.getElementById('myModal').style.display = 'block';
+        }
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+        function showAlert() {
+            document.getElementById('myAlert').style.display = 'block';
+        }
+
+        function closeAlert() {
+            document.getElementById('myAlert').style.display = 'none';
+        }
+
+    </script>
+</body>
+
+</html>
