@@ -1,29 +1,57 @@
-# LiteCSS
+# **Dyno**
 
-LiteCSS is a CSS library.
+**Dyno** is a open-source web development tools designed to simplify the creation and manipulation of web content. 
 
-LiteCSS is open source.
+It includes various libraries to automate JavaScript functionality, customize CSS, and enhance web development flexibility. 
 
-# LiteCSS History
+With **Dyno**, web developers can enjoy a streamlined and efficient experience without excessive complexity.
 
-Before this ideia, I was using BootStrap and I liked it but I felt it was too complicated at the same time, I wanted something simple that everyone could use.
+---
 
-So this project was rotting my mind and I did created it over an year, It had a alpha version but I never finished and I forgot the project.
+## **Dyno History**
 
-16 March of 2025, I remembered the project and decided to continue until it was fully functional and ready for everyone.
+Before this idea, I was using multiple libraries and frameworks, but I found them either too complicated or not as flexible as I wanted them to be. I wanted something simple that anyone could use.
 
+I started working on **Dyno** over a year ago, but the project was left unfinished after an alpha version. I forgot about it for a while.
 
-## Version
+On **16 March 2025**, I remembered the project and decided to continue development until it was fully functional and ready for everyone. 
 
-For now it's on Beta, I want to do more ideias and refine the other ones.
+---
 
+## **Version**
 
-## Objective
+Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and plan to refine and expand upon them over time.
 
-- Be simple as possible.
-- You can use a CSS File as a MOD.
+---
 
+## **Dyno Tools**
 
-# Licence
+### **1. DynoX (JS Automation) (Ongoing)**
+**DynoX** is a JavaScript library designed for automating DOM manipulation. It runs automatically after the content has loaded, allowing for seamless interaction with divs, buttons, and other elements. It can add extra content, implement switches, and enhance functionality without requiring manual scripting.
 
-No licence for now, its open source until further notice.
+### **2. Dyno (CSS Customization) (Ongoing)**
+**Dyno** for CSS offers an easy-to-use customization framework. You can adjust styles dynamically with minimal setup. The CSS file can be modified easily by setting variables, making it ideal for quick changes and lightweight projects.
+
+### **3. DynoZ (CSS Icons) (Onhold)**
+**DynoZ** provides a set of scalable, customizable CSS icons that are flexible and easy to integrate into your projects. These icons are designed to be used seamlessly with **Dyno** and **DynoX**.
+
+### **4. DynoW (Custom Web Tags) (Onhold)**
+**DynoW** allows developers to create and manage custom web tags. This tool makes it easier to build reusable components for your websites or applications, streamlining the development process.
+
+### **5. DynoY (Automatic JS Templates) (Onhold)**
+**DynoY** automates the creation of JavaScript templates. This tool allows developers to quickly generate dynamic content without writing repetitive code.
+
+---
+
+## **Objective**
+
+- **Simplicity**: The goal is to keep things as simple as possible so developers can focus on what matters most.
+- **Flexibility**: You can use each tool independently or together, depending on your project’s needs.
+- **Customizability**: For CSS, you can use the library as a MOD, easily adjusting variables to fit your unique design preferences.
+
+---
+
+## **License**
+
+Currently, there is no specific license for **Dyno**, but it is open-source until further notice. Feel free to use, contribute, or modify it as needed.
+
