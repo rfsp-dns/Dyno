@@ -27,7 +27,7 @@ Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and p
 ## **Dyno Tools**
 
 ### **1. DynoX (JS Automation) (Ongoing)**
-**DynoX** is a JavaScript library designed for automating DOM manipulation. It runs automatically after the content has loaded, allowing for seamless interaction with divs, buttons, and other elements. It can add extra content, implement switches, and enhance functionality without requiring manual scripting.
+**DynoX** is a JavaScript library designed for automating DOM manipulation. It runs automatically before the content has loaded, allowing for seamless interaction with divs, buttons, and other elements. It can add extra content, implement switches, and enhance functionality without requiring manual scripting.
 
 ### **2. Dyno (CSS Customization) (Ongoing)**
 **Dyno** for CSS offers an easy-to-use customization framework. You can adjust styles dynamically with minimal setup. The CSS file can be modified easily by setting variables, making it ideal for quick changes and lightweight projects.
