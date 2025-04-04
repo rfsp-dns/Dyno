@@ -88,7 +88,7 @@ Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and p
 
 ---
 
-## ⚙️ DynoX JS Features
+## DynoX JS Features
 
 - **Attribute-Based DOM Manipulation**
   - `alert-duration`, `modal-toggle`, `tab-target`, etc.
