@@ -51,6 +51,57 @@ Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and p
 
 ---
 
+## Dyno CSS Features
+
+### Layout
+- `.container`, `.fluid`, `.row`, `.col-*` (grid & flex)
+- Responsive design with mobile-first support (`<768px`)
+- `.flex`, `.block`, `.inline`, `.wrap`, `.nowrap`
+
+### Typography
+- Font Sizes: `xxsmall` to `xxlarge`
+- Font Weight: `fw-0` to `fw-900`
+- Styles: `.italic`, `.underline`, `.bold`
+- Text Alignment: `.text-left`, `.text-center`, `.text-right`
+
+### Colors
+- 256 named colors via `.c-*` and `.bc-*`
+- `.border-*` for border colors
+- Easy themeing and recoloring
+
+### Spacing & Borders
+- Margins/Paddings: `.m-*`, `.p-*`, with `top`, `bottom`, `left`, `right`
+- Border utilities: `.border`, `.border-radius`, custom colored borders
+
+### UI Components
+- Buttons: `.btn`, `.btn-*`
+- Inputs: Text, Select, Range, Switch, Radio, Checkbox (custom-styled)
+- Alerts: `.alert`, `.alert-warning`, auto-dismiss with `alert-duration`
+- Modals: `.modal`, auto-close and attribute-driven control
+- Tabs: `.tab-nav`, `.tab-panel`, auto-switch with `active` class
+- Progress Bars: `.progress-bar`, `.progress-fill`, animated width
+- Line Loaders: `.line-loader`, `.bubble-loader` (`bubbles="5"`)
+- Cards: `.card`, `.card-container`
+
+### Responsive & Media Queries
+- Full support for screens `<768px`
+
+---
+
+## ⚙️ DynoX JS Features
+
+- **Attribute-Based DOM Manipulation**
+  - `alert-duration`, `modal-toggle`, `tab-target`, etc.
+- **Auto Cleanup**
+  - Attributes like `alert-duration` removed after execution
+- **Smart Controls**
+  - Animated state toggle (checkbox/radio/switch)
+- **Reactive Utilities**
+  - Set progress bars dynamically
+  - Toggle modals, tabs, alerts, themes via attribute handlers
+
+---
+
 ## **License**
 
 Currently, there is no specific license for **Dyno**, but it is open-source until further notice. Feel free to use, contribute, or modify it as needed.
