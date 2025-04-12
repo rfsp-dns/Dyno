@@ -35,12 +35,6 @@ Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and p
 ### **3. DynoZ (CSS Icons) (Onhold)**
 **DynoZ** provides a set of scalable, customizable CSS icons that are flexible and easy to integrate into your projects. These icons are designed to be used seamlessly with **Dyno** and **DynoX**.
 
-### **4. DynoW (Custom Web Tags) (Onhold)**
-**DynoW** allows developers to create and manage custom web tags. This tool makes it easier to build reusable components for your websites or applications, streamlining the development process.
-
-### **5. DynoY (Automatic JS Templates) (Onhold)**
-**DynoY** automates the creation of JavaScript templates. This tool allows developers to quickly generate dynamic content without writing repetitive code.
-
 ---
 
 ## **Objective**
