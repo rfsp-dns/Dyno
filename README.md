@@ -37,7 +37,6 @@ This is the foundational method of applying styles using :
 
 - **CSS Classes** 
 - **Attributes**
-- **Dyno Attribute**
 
 Within the **Dyno ecosystem**, styling is typically enhanced by **Custom Properties** making it modular.
 
@@ -55,7 +54,7 @@ Within the **Dyno ecosystem**, styling is typically enhanced by **Custom Propert
 }
 
 /* ================= Container ================= */
-.container, [container], [dyno="container"]{
+.container, [container]{
     width: var(--container-width);
     max-width: var(--container-max-width);
     margin-left: var(--container-margin-left);
@@ -72,7 +71,6 @@ Within the **Dyno ecosystem**, styling is typically enhanced by **Custom Propert
 ```.html
 <div class="container">Using a Class</div>
 <div container>Using a Attribute</div>
-<div dyno="container">Using Dyno Attribute </div>
 ```
 
 ---
