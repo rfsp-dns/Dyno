@@ -31,7 +31,7 @@ On **16 March 2025**, I remembered the project and decided to continue developme
 
 Here are the core styling feature supported by **Dyno** :
 
-### **Class styling**
+### **Dyno styling**
 
 This is the foundational method of applying styles using CSS Classes, Attributes  and **Dyno** Attribute a standard web practice. 
 
