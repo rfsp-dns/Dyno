@@ -33,7 +33,11 @@ Here are the core styling feature supported by **Dyno** :
 
 ### **Dyno styling**
 
-This is the foundational method of applying styles using CSS Classes, Attributes  and **Dyno** Attribute. 
+This is the foundational method of applying styles using :
+
+- **CSS Classes** 
+- **Attributes**
+- **Dyno Attribute**
 
 Within the **Dyno ecosystem**, styling is typically enhanced by **Custom Properties** making it modular.
 
