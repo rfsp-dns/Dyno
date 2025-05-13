@@ -18,12 +18,6 @@ On **16 March 2025**, I remembered the project and decided to continue developme
 
 ---
 
-## **Version**
-
-Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and plan to refine and expand upon them over time.
-
----
-
 ## **Objective**
 
 - **Simplicity**: The goal is to keep things as simple as possible so developers can focus on what matters most.
@@ -31,41 +25,51 @@ Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and p
 - **Customizability**: For CSS, you can use the library as a MOD, easily adjusting variables to fit your unique design preferences.
 
 ---
+## Dyno Styling Capabilities
 
-## Dyno CSS Features
+**Dyno** offers a versatile approach to styling web elements, allow developers to choose the method that suits their needs for clarity, maintainability and dynamic control.
 
-### Layout
-- `.container`, `.fluid`, `.row`, `.col-*` (grid & flex)
-- Responsive design with mobile-first support (`<768px`)
-- `.flex`, `.block`, `.inline`, `.wrap`, `.nowrap`
+Here are the core styling feature supported by **Dyno** :
 
-### Typography
-- Font Sizes: `xxsmall` to `xxlarge`
-- Font Weight: `fw-0` to `fw-900`
-- Styles: `.italic`, `.underline`, `.bold`
-- Text Alignment: `.text-left`, `.text-center`, `.text-right`
+### **Class styling**
 
-### Colors
-- 256 named colors via `.c-*` and `.bc-*`
-- `.border-*` for border colors
-- Easy themeing and recoloring
+This is the foundational method of applying styles using CSS Classes, Attributes  and **Dyno** Attribute a standard web practice. 
 
-### Spacing & Borders
-- Margins/Paddings: `.m-*`, `.p-*`, with `top`, `bottom`, `left`, `right`
-- Border utilities: `.border`, `.border-radius`, custom colored borders
+Within the **Dyno ecosystem**, class styling is typically enhanced by **Custom Properties** making it modular.
 
-### UI Components
-- Buttons: `.btn`, `.btn-*`
-- Inputs: Text, Select, Range, Switch, Radio, Checkbox (custom-styled)
-- Alerts: `.alert`, `.alert-warning`, auto-dismiss with `alert-duration`
-- Modals: `.modal`, auto-close and attribute-driven control
-- Tabs: `.tab-nav`, `.tab-panel`, auto-switch with `active` class
-- Progress Bars: `.progress-bar`, `.progress-fill`, animated width
-- Line Loaders: `.line-loader`, `.bubble-loader` (`bubbles="5"`)
-- Cards: `.card`, `.card-container`
+```.css
+:root {
+  /* === Container === */
+    --container-width: 100%;
+    --container-max-width: 85%;
+    --container-margin-left: auto;
+    --container-margin-right: auto;
+    --container-padding-left: 1.5rem;
+    --container-padding-right: 1.5rem;
+    --container-padding-top: .5rem;
+    --container-box-sizing: border-box;
+}
 
-### Responsive & Media Queries
-- Full support for screens `<768px`
+/* ================= Container ================= */
+.container, [container], [dyno="container"]{
+    width: var(--container-width);
+    max-width: var(--container-max-width);
+    margin-left: var(--container-margin-left);
+    margin-right: var(--container-margin-right);
+    padding-left: var(--container-padding-left);
+    padding-right: var(--container-padding-right);
+    padding-top: var(--container-padding-top);
+    box-sizing: var(--container-box-sizing);
+}
+```
+
+### Usage
+
+```.html
+<div class="container">Using a Class</div>
+<div container>Using a Attribute</div>
+<div dyno="container">Using Dyno Attribute </div>
+```
 
 ---
 
