@@ -69,20 +69,6 @@ Currently, **Dyno** is in **Beta**. I have many ideas to improve the tools and p
 
 ---
 
-## DynoX JS Features
-
-- **Attribute-Based DOM Manipulation**
-  - `alert-duration`, `modal-toggle`, `tab-target`, etc.
-- **Auto Cleanup**
-  - Attributes like `alert-duration` removed after execution
-- **Smart Controls**
-  - Animated state toggle (checkbox/radio/switch)
-- **Reactive Utilities**
-  - Set progress bars dynamically
-  - Toggle modals, tabs, alerts, themes via attribute handlers
-
----
-
 ## **License**
 
 Currently, there is no specific license for **Dyno**, but it is open-source until further notice. Feel free to use, contribute, or modify it as needed.
