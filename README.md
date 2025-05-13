@@ -35,7 +35,7 @@ Here are the core styling feature supported by **Dyno** :
 
 This is the foundational method of applying styles using CSS Classes, Attributes  and **Dyno** Attribute a standard web practice. 
 
-Within the **Dyno ecosystem**, class styling is typically enhanced by **Custom Properties** making it modular.
+Within the **Dyno ecosystem**, styling is typically enhanced by **Custom Properties** making it modular.
 
 ```.css
 :root {
